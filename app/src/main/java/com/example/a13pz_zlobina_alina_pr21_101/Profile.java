@@ -30,7 +30,7 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
             {
                 Intent intent2 = new Intent(this, MenuMenu.class);
                 startActivity(intent2);
-            }
+            }//first
         else {
             Toast toast = Toast.makeText(getApplicationContext(), "Вы и так находитесь здесь!", Toast.LENGTH_SHORT);
             toast.show();
